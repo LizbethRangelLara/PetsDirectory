@@ -7,13 +7,15 @@ import { PetsComponent } from './pets/pets.component';
 import { PetDetailComponent } from './pet-detail/pet-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { GallaryComponent } from './gallary/gallary.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PetsComponent,
     PetDetailComponent,
-    GallaryComponent
+    GallaryComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
